@@ -2,7 +2,8 @@ package fraction;
 
 import static org.junit.Assert.*;
 
-import org.junit.*;
+import org.junit.Test;
+import org.junit.Before;
 
 import fraction.Fraction;
 
@@ -22,9 +23,6 @@ public class FractionTest {
 		test = new Fraction(-16,-20);
 	}
 
-	@After
-	public void tearDown() throws Exception {
-	}
 
 	/**
 	 *  If both - nom and - denom, both pos

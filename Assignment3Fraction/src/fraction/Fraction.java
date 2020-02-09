@@ -2,7 +2,7 @@ package fraction;
 /**
  * Jonathyn Komorita
  * CSCD 350
- * Fraction class that handles basic Fraction functionality
+  Fraction class that handles basic Fraction functionality
  */
 public class Fraction implements Comparable<Fraction> {
 
