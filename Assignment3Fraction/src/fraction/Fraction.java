@@ -6,7 +6,7 @@ package fraction;
  */
 public class Fraction implements Comparable<Fraction> {
 
-	
+	private int num;
 	private int denom;
 	
 	public Fraction( int num, int denom ) {
