@@ -32,7 +32,7 @@ public class Fraction implements Comparable<Fraction> {
 			denom = -denom;
 		}
 		else if( denom == 0 ) {
-			throw new IllegalArgumentException("The denominator with the value of 0 is not permitted");
+			throw new IllegalArgumentException("The denominator with the value of 0 is not permited");
 		}
 		return new int[] {num,denom};
 	}
